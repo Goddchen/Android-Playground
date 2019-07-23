@@ -12,11 +12,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <!--<androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?actionBarSize" />-->
-
         <fragment
             android:id="@+id/nav_host_fragment"
             android:name="androidx.navigation.fragment.NavHostFragment"
@@ -26,12 +21,6 @@
             app:navGraph="@navigation/nav_graph" />
     </LinearLayout>
 
-    <!--<fragment
-        android:name="de.goddchen.android.playground.DrawerFragment"
-        android:layout_width="320dp"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:fitsSystemWindows="true" />-->
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigation_view"
         android:layout_width="320dp"
