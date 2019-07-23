@@ -3,3 +3,5 @@ dist: trusty
 android:
   components:
     - android-28
+  licenses:
+    - 'android-sdk-license-.+'
